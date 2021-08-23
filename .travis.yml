@@ -13,7 +13,7 @@ script:
   - docker run -e CI=true kim206gh/docker-react-app npm run test -- --coverage
 
 after_success:
-  - echo "Test success"
+  - echo "Test successd"
 
 deploy:
   edge: true
